@@ -1,0 +1,172 @@
+
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+body{
+    background-image: url("../img/bg-2.png");
+    background-size: 700px 700px;
+}
+.home{
+    width:1140px;
+}
+/*contenido del header*/
+.home header{
+    width: 100%;
+    height:50px;
+
+    overflow:hidden;
+    background-color:orangered;
+    display: flex;
+}
+
+.home header img{
+    width:100;
+    height: 35px;
+    margin-left:10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.home header nav{
+    width:100%;
+    height:100%;
+    font-weight:bold;
+    text-transform: uppercase;
+    font-size: 15px; 
+    line-height: 50px;
+}
+
+.home header nav ul{
+    overflow:hidden;
+    list-style: none;
+}
+.home header nav .menu-left{
+    float:left;
+}
+.home header nav .menu-left li{
+    display:inline-block;
+    margin-right: 20px;
+}
+
+
+.home header nav .menu-left li a{
+    text-decoration: none;
+    color:white;
+}
+
+.home header nav .menu-right{ 
+    float:right;
+}
+.home header nav .menu-right li{
+    margin-right: 20px;
+    display:inline-block;
+}
+
+.home header nav .menu-right li a{
+    text-decoration: none;
+    color:white;
+}
+
+/*contenido de main*/
+.home main{
+    float:left;
+    width: 800px;
+    height:100%;
+    display:block;
+    overflow: hidden;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.home main section{
+    width: 380px;
+    height:360px;
+    position:inherit;
+    display:inline-flex;
+    margin: 10px 0px 0px 10px;
+    
+}
+.home main section img{
+    line-height: 50px;
+    width:380px;
+}
+.home main section h2{
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.home main section p{
+   font-size: 15px;
+}
+
+.home main section button{
+    background-color: orangered;
+    width:80px;
+    height:30px;
+    text-decoration: none;
+    border:0;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.home main section a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+}
+
+/*contenido del aside*/
+.home aside{
+    float:right;
+    height:100%;
+    width: 320px;
+    margin-top: 20px;
+}
+
+.home aside section .tutoriales article{
+    border:1px solid lightblue;
+}
+
+.home aside section .tutoriales img{
+    margin:5px 5px 5px 5px;
+}
+
+.home aside section h2{
+    background-color: white;
+    margin-bottom: 10px;
+    width:100%;
+    font-weight:bold;
+    border:1px solid lightblue;
+    line-height: 35px;
+    padding-left:10px;
+}
+
+.home aside section article{
+    background-color:white;
+    display: inline-flex;
+    position:inherit;
+    
+}
+
+.home aside section .contenedor-publicidad{
+    background-color: white;
+    border:1px solid lightblue;
+}
+
+.home aside section .contenedor-publicidad .publicidad{
+    position:inherit;
+    margin:10px 10px 10px 10px;
+}
+
+.home aside section article a{
+    position:inherit;
+    padding-top: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.home aside section article:last-child{
+    margin-bottom: 10px;
+}

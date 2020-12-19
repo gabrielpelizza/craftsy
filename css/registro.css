@@ -1,0 +1,144 @@
+
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+body{
+    background-image: url("../img/bg-2.png");
+}
+.registro{
+    width:1140px;
+}
+/*contenido del header*/
+.registro header{
+    width: 100%;
+    height:50px;
+
+    overflow:hidden;
+    background-color:orangered;
+    display: flex;
+}
+
+.registro header img{
+    width:100;
+    height: 35px;
+    margin-left:10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.registro header nav{
+    width:100%;
+    height:100%;
+    font-weight:bold;
+    text-transform: uppercase;
+    font-size: 15px; 
+    line-height: 50px;
+}
+
+.registro header nav ul{
+    overflow:hidden;
+    list-style: none;
+}
+.registro header nav .menu-left{
+    float:left;
+}
+.registro header nav .menu-left li{
+    display:inline-block;
+    margin-right: 20px;
+}
+
+
+.registro header nav .menu-left li a{
+    text-decoration: none;
+    color:white;
+}
+
+.registro header nav .menu-right{ 
+    float:right;
+}
+.registro header nav .menu-right li{
+    margin-right: 20px;
+    display:inline-block;
+}
+
+.registro header nav .menu-right li a{
+    text-decoration: none;
+    color:white;
+}
+
+/*registro*/
+.registro main section{
+    width:380px;
+    margin-top:50px;
+}
+
+.registro main section h1{
+    text-transform: uppercase;
+    text-align:center;
+}
+
+.registro main section form p{
+    padding-bottom:5px;
+    padding-top:15px;
+    font-weight: 600;
+}
+
+.registro main section form .casilla{
+    width:100%;
+    margin-bottom:10px;
+    height:30px;
+}
+
+.registro main section form h6{
+    color:red;
+}
+
+.registro main section form select{
+    width:150px;
+    border-radius: 6px;
+    margin-bottom:10px;
+}
+
+.registro main section form .genero{
+    margin-top:10px;
+    display:inline-flex;
+}
+
+.registro main section form span{
+    margin-right: 10px;
+    margin-left:5px;
+}
+
+.registro main section form .hobbie{
+    margin-top:10px;
+}
+
+.registro main section form h3{
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.registro main section form textarea{
+    width:100%;
+    height:100px;
+}
+
+.registro main section form .terms{
+    display:inline;
+    margin-right:5px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.registro main section form button{
+    border:0;
+    border-radius: 9px;
+    width:150px;
+    height:40px;
+    color:white;
+    background-color:#3fa1e8;
+    font-weight: 700;
+    margin-top:10px;
+}

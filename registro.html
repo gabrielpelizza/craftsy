@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/registro.css">
+</head>
+<body>
+    <div class="registro">
+        <header>
+            <a href="home.html"><img src="./img/logo.png" alt=""></a>
+            <nav>
+                <ul class="menu-left">
+                    <li><a href="">Smartphones</a></li>
+                    <li><a href="">Tablets</a></li>
+                    <li><a href="">Computadoras</a></li>
+                </ul>
+                <ul class="menu-right">
+                    <li><a href="login.html">login</a></li>
+                    <li><a href="#">registro</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h1>Registrate</h1>
+                <form action="">
+                    <p>Nombre</p>
+                    <input type="text" class="casilla" placeholder=" Ingresa tu nombre">
+                    <h6>Obligatirio</h6>
+
+                    <p>Email</p>
+                    <input type="text" class="casilla" placeholder=" Ingresa tu email">
+                    <h6>Obligatirio</h6>
+                    <p>Contraseña</p>
+
+                    <input type="password" class="casilla" placeholder=" Password">
+                    <h6>Obligatirio</h6>
+                    <p>Pais de nacimiento</p>
+
+                    <select>
+                        <option>Argentina</option>
+                        <option>Chile</option>
+                        <option>Bolivia</option>
+                    </select>
+
+                    <p>Genero</p>
+                    <input type="radio" name="genero" value="" id="hombre" class="genero"><span for="hombre">Hombre</span>
+                    <input type="radio" name="genero" value="" id="mujer" class="genero"><span for="mujer">Mujer</span>
+                    <input type="radio" name="genero" value="" id="nodef" class="genero"><span for="nodef">Prefiero no decirlo</span>
+
+                    <p>Hobbies</p>
+                    <input type="checkbox" name="hobbies" value="" id="guitarra" class="hobbie"><span for="guitarra">Guitarra</span>
+                    <input type="checkbox" name="hobbies" value="" id="futbol" class="hobbie"><span for="futbol">Futbol</span>
+                    <input type="checkbox" name="hobbies" value="" id="tenis" class="hobbie"><span for="tenis">Tenis</span>
+                    <input type="checkbox" name="hobbies" value="" id="programacion" class="hobbie"><span for="programacion">Programacion</span>
+                    
+                    <h3>Dejanos tu comentario</h3>
+                    <textarea>
+                    </textarea>
+                    
+                    <p><input type="checkbox" name="term" value="" id="term" class="terms">Acepto terminos y condiciones</p>
+
+                    <button>Registrarme</button>
+                    <button>Cancelar</button>
+                </form>
+            </section>
+        </main>
+
+    </div>
+</body>
+</html>
